@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgb(255, 255, 255);
+  
 }
 
 body{
@@ -20,33 +21,102 @@ body{
 
 .london{
   font-family: london;
-}
-
-.Sidebar{
-  height: 100%;
-  width: 600px;
-  font-family: london;
-  font-size:larger;
-  background-color: 'transparent';
-}
-
-.SidebarList{
-  height: 100%;
-  padding: 20vw 15vw;
-  width: 100%;
-  font-family: london;
   
 }
 
+.deskContainer{
+  
+  padding-top: 40vh;
+  padding-left: 70vw;
+
+}
+
+
+
+
+
+.headerContainer{
+  padding-top: 3vh;
+  padding-left: 88vw;
+
+}
+
+.headerContainerMob{
+  padding-top: 1vh;
+  padding-left: 45vw;
+  
+
+}
+
+
+
+
+
+
+.deskContainerBlog{
+  justify-content: center;
+  padding-top: 23vh;
+  padding-left: 33vw;
+
+}
+
+.deskContainerBlogMob{
+  padding-top: 14vh;
+  padding-left: 19vw;
+  font-size: 0.75rem;
+  width: 10%
+
+}
+
+
+
+.Sidebar{
+  width: 50vw;
+  font-family: london;
+  font-size:1rem;
+  background-color: 'transparent';
+}
+
+
+
+
+.SidebarList{
+  height: 100%;
+  padding: 12vh 5vw;
+  width: 100%;
+  font-family: london;
+  background-color: 'transparent';
+}
+
+
+
+
+.SidebarContainer{
+  padding-top: 30vh;
+  padding-left: 10vw;
+}
+
+.SidebarContainerMob{
+  padding-top: 30vh;
+  padding-left: 10vw;
+}
+
+
+
+
+
+
+
 .SidebarList  .row{
   width: 100%;
-  height: 40px;
-  margin: 0%;
+  height:25px;
+  margin: vh 0vw;
   display: flex;
   flex-direction: row;
   color: rgb(194, 196, 195);
-  justify-content: right;
-  text-align: right;
+  justify-content: left;
+  text-align: left;
+  background-color: 'transparent';
 }
 
 .SidebarList  .row:hover{
@@ -56,4 +126,49 @@ body{
 
 .SidebarList #active{
   color: rgb(53, 53, 53);
+}
+
+
+
+
+
+
+
+
+.SidebarListMob  .row{
+  width: 100%;
+  height:18px;
+  margin: vh 0vw;
+  display: flex;
+  flex-direction: row;
+  color: rgb(194, 196, 195);
+  justify-content: left;
+  text-align: left;
+  background-color: 'transparent';
+}
+
+.SidebarListMob{
+  height: 10%;
+  padding: 0vh 0vw;
+  width: 100%;
+  font-family: london;
+  font-size: 0.9rem;
+  background-color: 'transparent';
+}
+
+.SidebarListMob  .row:hover{
+  cursor: pointer;
+  color: rgb(53, 53, 53);
+}
+
+.SidebarListMob #active{
+  color: rgb(53, 53, 53);
+}
+
+.deskContainerMob{
+  font-size: small;
+  text-align: left;
+  padding-top: 76vh;
+  padding-left: 10vw;
+
 }

@@ -17,8 +17,8 @@ export const SidebarData= [
     },
 
     {
-        title: "Youth Eternal w/ MOONKAY + MMETALKNIGHTT @ 1020 RADIO",
-        link: "/yemk2"
+        title: "Youth Eternal w/ MOONKAY + MMETALKNIGHTT",
+        link: "/yemk"
     },
 
     {
@@ -27,9 +27,10 @@ export const SidebarData= [
     },
 
     {
-        title: "mmetalknightt ep! (2020)",
+        title: "MMETALKNIGHTT ep! (2020)",
         link: "/mkep"
     }
+    
 
 
 ]
